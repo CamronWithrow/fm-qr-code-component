@@ -23,19 +23,39 @@ body {
 
 main {
     background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.05);
+}
+
+img {
+    border-radius: 10px;
 }
 
 h1 {
     color: var(--color-dark-blue);
+    padding-bottom: 1rem;
 }
 
 p {
     color: var(--color-grayish-blue);
 }
 
+.call-to-action {
+    padding: 1.3rem 1rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
 }
 
 .attribution a {
