@@ -23,18 +23,17 @@ body {
 
 main {
     background-color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     padding: 1rem;
-    width: 320px;
+    max-width: 320px;
     border-radius: 20px;
     box-shadow: 0 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.05);
 }
 
 img {
     border-radius: 10px;
+    width: 100%;
+    display: block;
 }
 
 h1 {
